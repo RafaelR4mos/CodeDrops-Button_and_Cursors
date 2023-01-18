@@ -75,8 +75,7 @@ aside p {
   font-family: "Roboto";
   font-weight: 400;
 
-  margin-top: 68px;
-  max-width: 80%;
+  margin: 68px 84px 0 0;
   background-color: var(--button-docs-container-bg);
   border-radius: 8px;
   padding: 0 8px 8px 0;
@@ -85,9 +84,10 @@ aside p {
 .button-levels {
   display: flex;
   align-items: center;
-  margin-left: 82px;
-  padding: 24px 16px;
-  gap: 32px;
+  justify-content: space-between;
+  padding: 24px 16px 24px 105px;
+
+  width: 100%;
 }
 
 .level {
@@ -99,6 +99,7 @@ aside p {
 
 .button-wrapper {
   display: flex;
+  width: 100%;
 }
 
 .button-types {
@@ -106,6 +107,7 @@ aside p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 32px 0px;
   gap: 32px;
   width: 94px;
@@ -120,25 +122,28 @@ aside p {
   display: flex;
   flex-direction: column;
   padding: 32px 16px;
-  background-color: var(--bg-color);
   width: 100%;
+  background-color: var(--bg-color);
+  gap: 32px;
 }
 
 .button-row {
   display: flex;
-  gap: 32px;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .btn-container {
   display: flex;
   justify-content: center;
   width: 230px;
-  padding: 10px;
 }
 
 .btn {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
   padding: 12px 24px;
   background: #8257e5;
   border-radius: 24px;
