@@ -1,0 +1,147 @@
+:root {
+  --bg-color: #0b0911;
+  --aside-bg-color: #130f1e;
+  --button-docs-container-bg: #1c162c;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #ffffff;
+}
+
+main {
+  width: 77%;
+  padding: 107px 0 0 77px;
+}
+
+.page-header {
+  max-width: 808px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+aside {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: var(--aside-bg-color);
+  width: 23%;
+  height: 100vh;
+  padding: 107px 45px 0;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 68px;
+}
+
+.page-header h1,
+aside h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.page-header p,
+aside p {
+  font-family: "Roboto", sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.aside-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.aside-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-docs-container {
+  font-family: "Roboto";
+  font-weight: 400;
+
+  margin-top: 68px;
+  max-width: 80%;
+  background-color: var(--button-docs-container-bg);
+  border-radius: 8px;
+  padding: 0 8px 8px 0;
+}
+
+.button-levels {
+  display: flex;
+  align-items: center;
+  margin-left: 82px;
+  padding: 24px 16px;
+  gap: 32px;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  padding: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+}
+
+.button-types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0px;
+  gap: 32px;
+  width: 94px;
+}
+
+.types {
+  padding: 10px;
+  height: 48px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  background-color: var(--bg-color);
+  width: 100%;
+}
+
+.button-row {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  padding: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  background: #8257e5;
+  border-radius: 24px;
+  text-align: center;
+  color: #ffffff;
+}
